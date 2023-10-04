@@ -14,6 +14,7 @@
 		D84E822B2A69DB2E006F5004 /* ScrumTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E822A2A69DB2E006F5004 /* ScrumTrackTests.swift */; };
 		D84E82352A69DB2E006F5004 /* ScrumTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E82342A69DB2E006F5004 /* ScrumTrackUITests.swift */; };
 		D84E82372A69DB2E006F5004 /* ScrumTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E82362A69DB2E006F5004 /* ScrumTrackUITestsLaunchTests.swift */; };
+		D852610C2AC5D533009592AD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852610B2AC5D533009592AD /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D84E82302A69DB2E006F5004 /* ScrumTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84E82342A69DB2E006F5004 /* ScrumTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTrackUITests.swift; sourceTree = "<group>"; };
 		D84E82362A69DB2E006F5004 /* ScrumTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D852610B2AC5D533009592AD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		D85CF7002AC50E7C002423B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D852610B2AC5D533009592AD /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D852610C2AC5D533009592AD /* Theme.swift in Sources */,
 				D84E821C2A69DB2D006F5004 /* MeetingView.swift in Sources */,
 				D84E821A2A69DB2D006F5004 /* ScrumTrackApp.swift in Sources */,
 			);
