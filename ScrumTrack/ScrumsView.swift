@@ -7,12 +7,21 @@
 
 import SwiftUI
 
+
 struct ScrumsView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+	let scrums: [DailyScrum]
+	
+	var body: some View {
+		List(scrums) { scrum in
+			CardView(scrum: scrum)
+				.listRowBackground(scrum.theme.mainColor)
+		}
+	}
 }
 
-#Preview {
-    ScrumsView()
+
+struct ScrumsView_Previews: PreviewProvider {
+	static var previews: some View {
+		ScrumsView(scrums: DailyScrum.sampleData)
+	}
 }
