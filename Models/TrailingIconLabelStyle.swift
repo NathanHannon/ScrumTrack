@@ -8,6 +8,7 @@
 import SwiftUI
 
 
+/// A label style that displays an icon on the trailing edge of the label.
 struct TrailingIconLabelStyle: LabelStyle {
 	func makeBody(configuration: Configuration) -> some View {
 		HStack {

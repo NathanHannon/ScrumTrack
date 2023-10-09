@@ -8,6 +8,7 @@
 import SwiftUI
 
 
+/// A view that represents a card in a Scrum board.
 struct CardView: View {
 	let scrum: DailyScrum
 

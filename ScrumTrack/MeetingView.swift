@@ -8,6 +8,7 @@
 import SwiftUI
 
 
+/// A view that displays the details of a meeting.
 struct MeetingView: View {
 	var body: some View {
 		VStack {
