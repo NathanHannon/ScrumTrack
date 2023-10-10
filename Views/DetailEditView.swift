@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
+import SwiftUI
+
 struct DetailEditView: View {
 	@Binding var scrum: DailyScrum
 	@State private var newAttendeeName = ""
-
-
+	
 	var body: some View {
 		Form {
 			Section(header: Text("Meeting Info")) {
@@ -53,9 +55,6 @@ struct DetailEditView: View {
 	}
 }
 
-
-struct DetailEditView_Previews: PreviewProvider {
-	static var previews: some View {
-		DetailEditView(scrum: .constant(DailyScrum.sampleData[0]))
-	}
+#Preview {
+    DetailEditView(scrum: .constant(DailyScrum.sampleData[0]))
 }

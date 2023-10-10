@@ -36,3 +36,4 @@ struct ScrumsView_Previews: PreviewProvider {
 		ScrumsView(scrums: .constant(DailyScrum.sampleData))
 	}
 }
+
